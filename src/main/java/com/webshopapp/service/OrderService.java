@@ -1,10 +1,10 @@
-package com.activemqdemo.service;
+package com.webshopapp.service;
 import java.util.Map;
-import com.activemqdemo.model.InventoryResponse;
-import com.activemqdemo.model.Order;
+import com.webshopapp.model.InventoryResponse;
+import com.webshopapp.model.Order;
 
 public interface OrderService {
-	public void sendOrder(com.activemqdemo.model.Order order);
+	public void sendOrder(Order order);
 	
 	public void updateOrder(InventoryResponse response);
 	

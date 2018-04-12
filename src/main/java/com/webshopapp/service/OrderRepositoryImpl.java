@@ -1,8 +1,8 @@
-package com.activemqdemo.service;
+package com.webshopapp.service;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import org.springframework.stereotype.Service;
-import com.activemqdemo.model.Order;
+import com.webshopapp.model.Order;
 
 @Service("orderRepository")
 public class OrderRepositoryImpl implements OrderRepository {

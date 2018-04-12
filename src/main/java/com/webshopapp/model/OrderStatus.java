@@ -1,4 +1,4 @@
-package com.activemqdemo.model;
+package com.webshopapp.model;
 public enum OrderStatus{
 	CREATED("Created"), //
 	PENDING("Pending"), //

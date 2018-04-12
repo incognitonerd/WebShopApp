@@ -1,4 +1,4 @@
-package com.activemqdemo.model;
+package com.webshopapp.model;
 import java.io.Serializable;
 
 public class Order implements Serializable {

@@ -1,4 +1,4 @@
-package com.activemqdemo.configuration;
+package com.webshopapp.configuration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
-@ComponentScan(basePackages = "com.activemqdemo")
+@ComponentScan(basePackages = "com.webshopapp")
 @Import({MessagingConfiguration.class, MessagingListnerConfiguration.class})
 @EnableWebMvc
 public class AppConfig extends WebMvcConfigurerAdapter {

@@ -1,4 +1,4 @@
-package com.activemqdemo.configuration;
+package com.webshopapp.configuration;
 import java.util.Arrays;
 import org.apache.activemq.spring.ActiveMQConnectionFactory;
 import org.springframework.context.annotation.Bean;
@@ -14,7 +14,7 @@ public class MessagingConfiguration {
 	public ActiveMQConnectionFactory connectionFactory(){
 		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory();
 		connectionFactory.setBrokerURL(DEFAULT_BROKER_URL);
-		connectionFactory.setTrustedPackages(Arrays.asList("com.websystique.springmvc"));
+		connectionFactory.setTrustedPackages(Arrays.asList("com.webshopapp"));
 		return connectionFactory;
 	}
 	

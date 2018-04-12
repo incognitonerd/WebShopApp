@@ -1,4 +1,4 @@
-package com.activemqdemo.utils;
+package com.webshopapp.utils;
 import java.util.UUID;
 
 public class BasicUtil {

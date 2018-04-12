@@ -1,14 +1,14 @@
-package com.activemqdemo.service;
+package com.webshopapp.service;
 import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.activemqdemo.messaging.MessageSender;
-import com.activemqdemo.model.InventoryResponse;
-import com.activemqdemo.model.Order;
-import com.activemqdemo.model.OrderStatus;
-import com.activemqdemo.utils.BasicUtil;
+import com.webshopapp.messaging.MessageSender;
+import com.webshopapp.model.InventoryResponse;
+import com.webshopapp.model.Order;
+import com.webshopapp.model.OrderStatus;
+import com.webshopapp.utils.BasicUtil;
 
 @Service("orderService")
 public class OrderServiceImpl implements OrderService {

@@ -1,4 +1,4 @@
-package com.activemqdemo.configuration;
+package com.webshopapp.configuration;
 import javax.jms.ConnectionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -20,4 +20,3 @@ public class MessagingListnerConfiguration {
 		return factory;
 	}
 }
-

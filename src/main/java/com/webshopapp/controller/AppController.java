@@ -1,4 +1,4 @@
-package com.activemqdemo.controller;
+package com.webshopapp.controller;
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import com.activemqdemo.model.Order;
-import com.activemqdemo.service.OrderService;
+import com.webshopapp.model.Order;
+import com.webshopapp.service.OrderService;
 
 @Controller
 public class AppController {

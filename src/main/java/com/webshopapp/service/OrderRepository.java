@@ -1,9 +1,9 @@
-package com.activemqdemo.service;
+package com.webshopapp.service;
 import java.util.Map;
-import com.activemqdemo.model.Order;
+import com.webshopapp.model.Order;
 
 public interface OrderRepository {
-	public void putOrder(com.activemqdemo.model.Order order);
+	public void putOrder(Order order);
 	
 	public Order getOrder(String orderId);
 	
